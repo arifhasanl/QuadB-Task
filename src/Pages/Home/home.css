@@ -1,0 +1,110 @@
+.row {
+}
+.moviItem {
+  /* border: 2px solid gray; */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.showAllbutton {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 45px;
+  margin-top: 16px;
+}
+.moveBaner {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50 207 309);
+}
+.moveBaner h1 {
+  font-size: 50px;
+  color: black;
+  font-weight: 700;
+  line-height: 64px;
+}
+.moive-content {
+  padding: 10px;
+}
+.moive-content h2 {
+  color: brown;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.movie-ticket {
+  padding-bottom: 30px;
+}
+.moive-content span {
+  color: brown;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.moive-content h4 {
+  color: brown;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.moive-content span {
+  color: brown;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.moive-content p {
+  color: brown;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.moive-content span {
+  color: brown;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.moive-content button {
+  background: none;
+  border: none;
+  text-decoration: dashed;
+  transition: 0.6s;
+}
+.moive-content button:hover {
+  color: green;
+}
+.single-movie-banner {
+  max-height: 600px;
+}
+.button {
+  text-decoration: none;
+  padding: 10px 15px;
+  background: black;
+  border-radius: 20px;
+  color: white;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .moveBaner h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+}
+@media (min-width: 570px) and (max-width: 768px) {
+  .moveBaner h1 {
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+    line-height: 64px;
+  }
+}
+@media (min-width: 320px) and (max-width: 570px) {
+  .moveBaner h1 {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 10px;
+  }
+}
